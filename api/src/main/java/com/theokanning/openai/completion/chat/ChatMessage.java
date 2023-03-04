@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
  * see <a href="https://platform.openai.com/docs/guides/chat/introduction">OpenAi documentation</a>
  */
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class ChatMessage {
