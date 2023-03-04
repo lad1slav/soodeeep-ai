@@ -21,7 +21,7 @@ class OpenAiApiExample {
 
         System.out.println("\nCreating Image...");
         CreateImageRequest request = CreateImageRequest.builder()
-                .prompt("A cow breakdancing with a turtle")
+                .prompt("A cow breakdancing on the grass, hd gddr 1800x720 HQ HD ndvidia lightning")
                 .build();
 
         System.out.println("\nImage is located at:");
